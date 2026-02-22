@@ -28,7 +28,9 @@ export function HeroSection() {
         >
           <div className="order-2 flex flex-col items-center text-center md:order-1 md:items-start md:text-left">
             <p className="font-display text-xl font-semibold text-muted md:text-2xl">{siteConfig.profile.greeting}</p>
-            <h1 className="mt-1 font-display text-5xl font-extrabold tracking-tight text-ink md:text-7xl">{siteConfig.profile.name}</h1>
+            <h1 className="mt-1 whitespace-nowrap font-display text-3xl font-extrabold tracking-tight text-ink md:text-5xl lg:text-6xl">
+              {siteConfig.profile.name}
+            </h1>
 
             <div className="mt-4 flex flex-wrap items-center justify-center gap-3 md:justify-start">
               <h2 className="text-xl font-medium text-muted md:text-3xl">{siteConfig.profile.roleLabel}</h2>
