@@ -24,6 +24,9 @@ export function ContactSection() {
             <a href={`mailto:${siteConfig.contact.email}`} className="transition hover:text-ink hover:underline">
               {siteConfig.contact.email}
             </a>
+            <a href={siteConfig.contact.topmate} target="_blank" rel="noreferrer" className="transition hover:text-ink hover:underline">
+              Topmate
+            </a>
             <a href={siteConfig.contact.linkedin} target="_blank" rel="noreferrer" className="transition hover:text-ink hover:underline">
               LinkedIn
             </a>

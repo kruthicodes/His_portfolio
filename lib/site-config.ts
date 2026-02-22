@@ -69,6 +69,7 @@ export const siteConfig = {
     title: "Contact",
     heading: "Let's Build, Speak, or Collaborate",
     email: "bakar.banda1711@gmail.com",
+    topmate: "https://topmate.io/abhishek_partap_singh",
     linkedin:
       "https://www.linkedin.com/in/abhishek-partap-singh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   }
