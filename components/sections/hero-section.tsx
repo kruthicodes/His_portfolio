@@ -61,6 +61,10 @@ export function HeroSection() {
           <div className="order-1 flex justify-center md:order-2 md:justify-start">
             <div className="relative md:-ml-6">
               <div className="relative aspect-square h-64 overflow-hidden rounded-xl border border-violet-200 bg-card shadow-sm md:h-80">
+                <div className="absolute left-3 top-3 z-10 inline-flex items-center gap-2 rounded-full border border-emerald-200/90 bg-white/95 px-3 py-1 text-xs font-semibold text-emerald-700 shadow-sm">
+                  <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                  Online
+                </div>
                 <img
                   src={siteConfig.profile.photoSrc}
                   alt={siteConfig.profile.photoAlt}
